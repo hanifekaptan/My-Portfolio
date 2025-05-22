@@ -1,0 +1,69 @@
+.contact-container {
+    min-height: 100vh;
+    padding-bottom: 50px; /* Alt boşluk */
+    padding-top: 50px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 100px; /* Üst boşluk */
+    margin-bottom: 100px; /* Alt boşluk */
+}
+
+.contact-info-title,
+.contact-form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    padding-top: 50px; /* Metni ortaya doğru kaydır */
+    text-align: center; /* Metni sola hizala */
+}
+
+.contact-info p {
+    margin-bottom: 5px; /* Bilgiler arası boşluk */
+}
+
+.contact-info div {
+    margin-top: 20px;
+}
+
+.contact-info div p { /* "Follow Me:" yazısını sola hizala */
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-info a {
+    margin-right: 10px; /* İkonlar arası boşluk */
+    font-size: 20px;
+}
+
+.contact-form {
+    margin-top: 20px;
+    max-width: 500px; /* Form genişliğini sınırlayın */
+    margin-left: auto;  /* Yatayda ortala */
+    margin-right: auto; /* Yatayda ortala */
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px; /* Form elemanları arası boşluk */
+}
+
+.contact-form .form-group label {
+    margin-bottom: 5px; /* Label alt boşluğu */
+}
+
+.contact-form button {
+    display: block;
+    margin: 20px auto 0; /* Butonu ortala ve üst boşluk ekle */
+    background: #4c75c4;
+    border: 1px solid #1a4492;
+}
+
+.contact-form button:hover {
+    background: #1a4492;
+}

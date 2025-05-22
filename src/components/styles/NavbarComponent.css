@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #ede9e6;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    padding-left: 23px;
+}
+
+.navbar .nav-link {
+    color: black;
+    margin-right: 30px;
+}
+
+.navbar .nav-link:hover {
+    color: #1a4492;
+}

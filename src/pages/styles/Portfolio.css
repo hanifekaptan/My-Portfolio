@@ -1,0 +1,76 @@
+.portfolio-title {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.education-experience-title {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.education-section,
+.experience-section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.education-experience-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.education-experience-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.education-experience-box {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #898ca6;
+    background-color: #dfdcd9;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.education-experience-box p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.education-experience-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.experience-box-container {
+    margin-bottom: 100px;
+}
+
+.project-slider-container {
+    margin-top: 20px;
+    min-height: 250px;
+}
